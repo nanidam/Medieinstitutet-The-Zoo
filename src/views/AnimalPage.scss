@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.return-btn {
+  width: 170px;
+  font-size: 1.3rem;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  // transition: background-color 0.3s;
+
+  &:hover{
+    outline: 1px solid #646cff;
+  }
+}
